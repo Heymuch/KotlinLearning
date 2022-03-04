@@ -1,0 +1,8 @@
+services:
+  kotlin:
+    image: gradle:latest
+    stdin_open: true
+    hostname: kotlin.docker
+    volumes:
+      - ..:/workspace
+    command: /bin/bash
